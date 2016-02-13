@@ -1,7 +1,5 @@
 'use strict';
-// generated on 2016-02-04 using generator-tiy-webapp 0.0.11
 
-// Require your modules
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 var rimraf = require('rimraf');

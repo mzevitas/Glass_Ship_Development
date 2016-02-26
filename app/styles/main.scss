@@ -3,22 +3,35 @@ body {
   font-family: 'Maven Pro', sans-serif;
 }
 
+header {
+  position: fixed;
+  height: 100px;
+  z-index: 1;
+  width: 100%;
+  background-color: hsla(240, 0%, 52%, 0.4);
 
-.container {
-  margin: 100px auto;
-  text-align: center;
+img {
+      width: 23%;
+      margin-left: 2%;
+      float: left;
+}
+.fa {
 
-  img {
-    width: 320px;
-  }
-  h1 {
-    color: hsla(207, 51%, 56%, 1);
-  }
-  a {
-    color: hsla(203, 56%, 82%, 1);
-    font-size: 61%;
-    &:hover{
-      color: hsla(207, 52%, 71%, 1);
-    }
-  }
+  color: hsla(207, 48%, 56%, 1);
+  float: right;
+  margin-top: 24px;
+  margin-right: 2%;
+  vertical-align: middle;
+}
+
+
+
+}
+
+
+
+#bgvid {
+  width: 100%;
+  position: absolute;
+  filter: brightness(50%);
 }

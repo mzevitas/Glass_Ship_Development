@@ -10,7 +10,6 @@
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
-    <link rel="stylesheet" href="../bower_components/angular-material/angular-material.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -22,24 +21,71 @@
     <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
   </head>
   <body>
+ 
+  <!--   <img class="logoImg" src="images/glass_ship_inline.png" alt=""> -->
 
-  <header>
-  <img src="images/glass_ship_inline.png" alt="">
-  <i id="hamburger" class="fa fa-bars fa-3x"></i>
+<header>
+<img class="logoImg" src="images/glass_ship_inline.png" alt="">
+<div class="button_container" id="toggle">
+  <span class="top"></span>
+  <span class="middle"></span>
+  <span class="bottom"></span>
+</div>
 
-  </header>
+<div class="overlay" id="overlay">
+    <img class="logoImg" src="images/glass_ship_inline_white.png" alt="">
 
-<div class="head">  
-        <video autoplay loop id="bgvid" class="overlay">
-                <source src="images/Plug-and-Play.webm" type="video/webm">
-                <source src="images/Plug-and-Play.mp4" type="video/mp4">
-            </video>
+  <nav class="overlay-menu">
+    <ul>
+      <li ><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+</header>
+<div class="container">
+
+<section id="home">
+    <h1>Home</h1>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda voluptates nesciunt illo mollitia tempora alias, accusamus eum, iure quibusdam, vero aspernatur libero sint voluptas veniam optio sed, accusantium temporibus? Animi.
+</section>
+
+<section id="about">
+    <h1>About</h1>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam nemo fuga tempora iusto. Iure mollitia nisi iusto dignissimos ducimus suscipit pariatur optio quam dolorum eum sed, voluptatem expedita vero consectetur!
+</section>
+
+<section id="services">
+    <h1>Services</h1>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, esse et natus vero. Fuga unde, omnis mollitia laudantium error in incidunt. Ea, aliquid, veritatis. Aliquid amet assumenda omnis perferendis ipsum.
+</section>
+
+<section id="work">
+    <h1>Work</h1>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cum similique magni, optio veniam ipsa excepturi consequatur aut quod sed eos modi maiores soluta error beatae dignissimos provident porro harum.
+</section>
+
+<section id="contact">
+    <h1>Contact</h1>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, perspiciatis sunt ad dignissimos tempore cumque totam ut, illo deserunt laborum consequuntur aliquid nesciunt omnis, enim vitae eos. Quasi, magni, perferendis.
+</section>
 
 
 
 
 
-</div> 
+
+
+
+
+
+
+
+</div>
 
 
 
@@ -48,12 +94,8 @@
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <script src="../bower_components/underscore/underscore.js"></script>
     <script src="../bower_components/angular/angular.js"></script>
-    <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="../bower_components/angular-animate/angular-animate.js"></script>
-    <script src="../bower_components/angular-aria/angular-aria.js"></script>
-    <script src="../bower_components/angular-messages/angular-messages.js"></script>
-    <script src="../bower_components/angular-material/angular-material.js"></script>
+    <script src="../bower_components/angular-route/angular-route.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

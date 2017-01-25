@@ -1,3 +1,47 @@
+(function() {
+
+    var app = angular.module('glassShipDevelopment', ['ngRoute'])
+
+    .config(function($routeProvider) {
+
+
+        $routeProvider.when('/', {
+            templateUrl: 'views/home.html',
+            controller: ''
+        });
+        $routeProvider.when('/about-us', {
+            templateUrl: 'views/about.html',
+            controller: ''
+        });
+        $routeProvider.when('/contact-us', {
+            templateUrl: 'views/contact.html',
+            controller: ''
+        });
+        $routeProvider.when('/our-services', {
+            templateUrl: 'views/services.html',
+            controller: ''
+        });
+        $routeProvider.when('/why-glass-ship-development', {
+            templateUrl: 'views/whyus.html',
+            controller: ''
+        });
+        $routeProvider.when('/team', {
+            templateUrl: 'views/team.html',
+            controller: ''
+        });
+        
+    });
+
+
+
+
+}());
+
+
+
+
+
+
 $(document).ready(function(){       
 $('#toggle, nav a').click(function() {
    $('#toggle, nav a').toggleClass('active');

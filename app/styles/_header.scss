@@ -30,7 +30,7 @@ header {
 
 .button_container {
   position: fixed;
-  top: 20px;
+      top: 31px;
   right: 2%;
 
   height: $button-height;
@@ -60,7 +60,7 @@ header {
   }
   
   span {
-  background: $color-main;
+  background: #4c87c0;
   border: none;
   height: 5px;
   width: 100%;

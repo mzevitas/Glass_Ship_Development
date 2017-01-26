@@ -1,11 +1,26 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     background-color: $color-background;
     font-family: 'Maven Pro', sans-serif;
+    position: relative;
+    min-height: 100%;
 }
 
-.container{
-	padding-top: 90px;
+.container {
+    padding-top: 90px;
 }
+
+
 
 #container {
     width: 100%;
@@ -13,11 +28,11 @@ body {
     text-align: center;
     margin: 0 auto;
     section {
+
         h1 {
             margin: 0;
         }
     }
-
     .box {
         padding-top: 30px;
         padding-bottom: 20px;
@@ -39,22 +54,23 @@ body {
 }
 
 footer {
-	background-color: #26374e;
-	color: #fff;
-
-	p{
-		    font-size: 17px;
-    vertical-align: initial;
-    padding-top: 11px;
-    padding-left: 10px;
-	}
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #26374e;
+    color: #fff;
+    p {
+        font-size: 17px;
+        vertical-align: initial;
+        padding-top: 11px;
+        padding-left: 10px;
+    }
     .social {
         float: right;
-
-        i{
-			padding: 10px;
+        i {
+            padding: 10px;
         }
-
     }
 }
 
@@ -63,19 +79,17 @@ footer {
 }
 
 .mobile {
-	display: none;
-
+    display: none;
 }
 
 @media screen and (max-width: 990px) {
-	.mobile {
-		display: block;
-	}
-	.desktop {
-		display:none;
-	}
-
-	#team {
-		padding-top: 30px;
-	}
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+    #team {
+        padding-top: 30px;
+    }
 }

@@ -65,13 +65,15 @@ $('#toggle, nav a').click(function() {
                     	'padding-top': '5px'
                     });
                     $(".button_container").css({
-                    	'width': '30px',
-                    	'height': '22px',
+                    	'width': '35px',
+                    	'height': '27px',
                     	'transition': '1s ease',
                     	'margin-top': '-10px'
                     });
-
-
+                   
+                    // $('.button_container span').css({
+                    //     'background': '#4c87c0'
+                    // });
                 } else {
                     $("header").css({
                     	'background-color': 'transparent',
@@ -85,8 +87,11 @@ $('#toggle, nav a').click(function() {
                     	'width': '35px',
                     	'height': '27px',
                     	'transition': '.5s ease',
-                    	// 'padding-top': '5px'
                     });
+                    // $('.button_container span').css({
+                    //     'background': '#ffffff'
+                    // });
+                    
                 }
             });
         });
